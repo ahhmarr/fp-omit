@@ -1,8 +1,9 @@
-[![Build Status](https://travis-ci.com/ahhmarr/fp-omit.svg?branch=master)](https://travis-ci.com/ahhmarr/fp-omit)
-
 # fp-omit
 
 removing properties from a collection, in an Immutable and functional way
+
+[![Build Status](https://travis-ci.com/ahhmarr/fp-omit.svg?branch=master)](https://travis-ci.com/ahhmarr/fp-omit)
+[![npm module](https://badge.fury.io/js/fp-omit.svg)](https://www.npmjs.org/package/fp-omit)
 
 ## Installation
 

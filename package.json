@@ -7,7 +7,15 @@
     "test": "mocha --exit --recursive ./test/**/*.spec.js",
     "coverage": "nyc npm run test"
   },
-  "keywords": [],
+  "keywords": [
+    "omit",
+    "remove",
+    "immutable",
+    "functional",
+    "utils",
+    "fp",
+    "dissocpath"
+  ],
   "author": " <ahmar siddiqui>",
   "license": "ISC",
   "repository": {
