@@ -8,6 +8,7 @@
     "coverage": "nyc npm run test"
   },
   "keywords": [
+    "fp-omit",
     "omit",
     "remove",
     "immutable",
