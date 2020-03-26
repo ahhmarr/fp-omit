@@ -2,7 +2,7 @@
 
 # fp-omit
 
-omitting properties from a collection, in an Immutable and functional way
+removing properties from a collection, in an Immutable and functional way
 
 ## Installation
 
