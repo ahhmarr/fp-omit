@@ -1,5 +1,4 @@
 const { expect } = require('chai');
-const sinon = require('sinon');
 const { mockArrayCollection, collection } = require('./mock');
 
 const fpOmit = require('../index');
