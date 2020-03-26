@@ -1,0 +1,30 @@
+{
+  "name": "fp-omit",
+  "version": "0.0.1",
+  "description": "a functional method to omit n level property from an object",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit --recursive ./test/**/*.spec.js",
+    "coverage": "nyc npm run test"
+  },
+  "keywords": [],
+  "author": " <ahmar siddiqui>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahhmarr/fp-omit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahhmarr/fp-omit/issues"
+  },
+  "homepage": "https://github.com/ahhmarr/fp-omit#readme",
+  "dependencies": {
+    "ramda.dissocpath": "0.26.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.0",
+    "sinon": "^9.0.1"
+  }
+}
