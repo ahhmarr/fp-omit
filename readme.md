@@ -1,8 +1,8 @@
+[![Build Status](https://travis-ci.com/ahhmarr/fp-omit.svg?branch=master)](https://travis-ci.com/ahhmarr/fp-omit)
+
 # fp-omit
 
 omitting properties from a collection, in an Immutable and functional way
-
-examples
 
 ## Installation
 
