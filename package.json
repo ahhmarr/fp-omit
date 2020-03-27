@@ -1,6 +1,6 @@
 {
   "name": "fp-omit",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "a functional method to omit n level property from an object",
   "main": "index.js",
   "scripts": {
