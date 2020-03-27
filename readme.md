@@ -7,7 +7,9 @@ removing properties from a collection, in an Immutable and functional way
 
 ## Installation
 
-`npm install fp-omit`
+```
+npm install fp-omit
+```
 
 ## Usage
 
