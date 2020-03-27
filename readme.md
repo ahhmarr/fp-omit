@@ -4,7 +4,7 @@ Removing properties from a collection, in an Immutable and functional way.
 
 [![Build Status](https://travis-ci.com/ahhmarr/fp-omit.svg?branch=master)](https://travis-ci.com/ahhmarr/fp-omit)
 [![npm module](https://badge.fury.io/js/fp-omit.svg)](https://www.npmjs.org/package/fp-omit)
-[![GitHub license](https:////img.shields.io/github/license/ahhmarr/fp-omit.svg)](https:////github.com/ahhmarr/fp-omit/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/ahhmarr/fp-omit.svg)](https://github.com/ahhmarr/fp-omit/blob/master/LICENSE)
 
 # Installation
 
