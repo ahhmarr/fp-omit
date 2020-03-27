@@ -89,4 +89,17 @@ describe('testing collection', () => {
     expect(result).to.not.have.property('user_id');
     expect(result).to.not.have.property('active_flag');
   });
+  it('should filter property with dot notation as well', () => {
+    const fieldsToRemove = ['some.\\dot.\\prop.sub.\\object'];
+    const newCollection = {
+      ...collection,
+      'some.dot.prop': {
+        'sub.object': {
+          prop: 'value'
+        }
+      }
+    };
+    const result = fpOmit(newCollection, fieldsToRemove);
+    expect(result['some.dot.prop']).to.not.have.property('sub.object');
+  });
 });
