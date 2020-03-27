@@ -18,7 +18,7 @@ const omit = require('fp-omit');
 example 1:
 
 ```
-omit({{
+omit({
     user_id: '5e7c5c0a527efb05ad2ae967',
     index: 0,
     guid: 'c3f1b677-5f24-4bdb-81d6-3745947664d2',
@@ -28,7 +28,6 @@ omit({{
       name: 'Lorene Delgado',
       email: 'lorenedelgado@parcoe.com'
     }
-}
 },['user_id','guid','user])
 // returns
 //  {
