@@ -1,11 +1,10 @@
 const { expect } = require('chai');
-const { mockArrayCollection, collection } = require('./mock');
 
 const {
   isArrayOrObject,
   getFieldArrayFromString,
   removeField,
-  omitFields
+  omitFields,
 } = require('../src/handler');
 
 describe('testing methods', () => {
@@ -17,36 +16,40 @@ describe('testing methods', () => {
   });
   it('getFieldArrayFromString() escape in case of dot notation', () => {
     const dotNotationString = 'some.\\dot.\\prop.sub.\\object';
+
     expect(getFieldArrayFromString(dotNotationString)).to.deep.equal([
       'some.dot.prop',
-      'sub.object'
+      'sub.object',
     ]);
   });
   it('getFieldArrayFromString() parse simple string', () => {
     const simpleString = 'simple';
     const dotNotationString = 'some.string';
+
     expect(getFieldArrayFromString(simpleString)).to.deep.equal(['simple']);
     expect(getFieldArrayFromString(dotNotationString)).to.deep.equal([
       'some',
-      'string'
+      'string',
     ]);
   });
   it('removeField() should remove the field', () => {
     const object = {
       some: {
-        object: 'value'
-      }
+        object: 'value',
+      },
     };
+
     expect(removeField(object, 'some.object')).to.deep.equal({ some: {} });
   });
   it('omitFields() should omit fields', () => {
     const object = {
       some: {
-        object: 'value'
-      }
+        object: 'value',
+      },
     };
+
     expect(
-      omitFields({ object, fieldsToOmit: ['some.object'] })
+      omitFields({ object, fieldsToOmit: ['some.object'] }),
     ).to.deep.equal({ some: {} });
   });
   it('omitFields() should throw error', () => {
