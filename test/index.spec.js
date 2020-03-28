@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 const { mockArrayCollection, collection } = require('./mock');
 
-const fpOmit = require('../index');
+const fpOmit = require('../src/index');
 
 describe('testing array of collection', () => {
   it('should skip unavailable fields', () => {

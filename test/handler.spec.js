@@ -6,7 +6,7 @@ const {
   getFieldArrayFromString,
   removeField,
   omitFields
-} = require('../handler');
+} = require('../src/handler');
 
 describe('testing methods', () => {
   it('isArrayOrObject() should say either or or specific type', () => {
