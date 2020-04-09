@@ -6,8 +6,7 @@
   "scripts": {
     "test": "mocha --exit --recursive ./test/**/*.spec.js",
     "coverage": "nyc npm run test",
-    "lint": "eslint .",
-    "postpublish": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag v$PACKAGE_VERSION && git push --tags"
+    "lint": "eslint ."
   },
   "keywords": [
     "fp-omit",
