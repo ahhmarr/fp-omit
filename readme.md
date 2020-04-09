@@ -132,7 +132,7 @@ omit({
       "delete.this" : 12
     }
   }
-},['some.\\object.\\with.dot.\\names.\\prop..delete.\\this'])
+},['some.\\object.\\with.dot.\\names.\\prop.delete.\\this'])
 ```
 
 ```
